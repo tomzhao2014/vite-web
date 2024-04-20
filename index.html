@@ -1,0 +1,36 @@
+<!-- 入口页面-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Vue + TS</title>
+    <!-- 加载样式 -->
+    <style type="text/css">
+      /* 全局样式 */
+      #app {
+        width: 100% !important;
+        height: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        max-width: initial !important;
+      }
+
+      *{
+    margin: 0;
+    padding: 0;
+    }
+    html,body{
+        height: 100%;
+        width: 100%;
+        padding: 0;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!--加载main.ts-->
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
